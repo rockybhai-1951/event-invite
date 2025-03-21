@@ -1,65 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>You're Invited!</title>
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(#ffdde1, #ee9ca7);
       margin: 0;
-      padding: 0;
-      text-align: center;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #fdfcfb, #e2d1c3);
       color: #333;
     }
-    .container {
-      padding: 30px 20px;
+    .hero {
+      background: linear-gradient(135deg, #7F00FF, #E100FF);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
     }
-    h1 {
-      font-size: 2.2em;
+    .hero h1 {
+      font-size: 2.5em;
       margin-bottom: 10px;
     }
-    .details {
+    .content {
+      max-width: 700px;
+      margin: 30px auto;
       background: white;
-      padding: 20px;
-      border-radius: 10px;
-      display: inline-block;
-      margin-top: 20px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
     }
-    .details p {
+    .content p {
       font-size: 1.1em;
-      margin: 10px 0;
-    }
-    .rsvp {
-      margin-top: 25px;
+      margin: 12px 0;
     }
     .btn {
-      background-color: #ff5e62;
+      display: inline-block;
+      background: #7F00FF;
       color: white;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      font-size: 1em;
+      padding: 12px 20px;
+      border-radius: 6px;
+      margin-top: 20px;
       text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+    .btn:hover {
+      background: #5e00cc;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>You're Invited!</h1>
-    <div class="details">
-      <p><strong>Event:</strong> College Fest 2025</p>
-      <p><strong>Date:</strong> March 25, 2025</p>
-      <p><strong>Time:</strong> 6:30 PM onwards</p>
-      <p><strong>Venue:</strong> College Main Auditorium</p>
-    </div>
 
-    <div class="rsvp">
-      <p>RSVP or Contact us:</p>
-      <a class="btn" href="mailto:vinaykumarkishor636@example.com">Send RSVP</a>
-    </div>
+  <div class="hero">
+    <h1>You're Invited!</h1>
+    <p>College Fest 2025 | March 25 | 6:30 PM</p>
   </div>
+
+  <div class="content">
+    <p><strong>Venue:</strong> College Main Auditorium</p>
+    <p>Join us for a night of fun, music, and unforgettable memories.</p>
+    <p><strong>Contact / RSVP:</strong></p>
+    <a class="btn" href="mailto:vinaykumarkishor636@example.com">Send RSVP</a><br><br>
+    <a class="btn" href="update.html">View Event Updates</a>
+  </div>
+
 </body>
 </html>
